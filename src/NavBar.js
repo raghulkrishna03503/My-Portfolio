@@ -2,36 +2,37 @@ import React from "react";
 import './NavBar.css';
 
 export default function NavBar() {
-
     return (
-
-        <>
-            <div id="nav-bar">
-                <div id="logo">
-                    <p>&lt;RKY/&gt;</p>
-                </div>
-                <div id="side-links">
-                    <ul>
-                        <li>
-                            <a href="#">Skills</a>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="#">
+                    <div id="logo">
+                        <p>&lt;RKY/&gt;</p>
+                    </div>
+                </a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav ms-auto" id="side-links">
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Skills</a>
                         </li>
-                        <li>
-                            <a href="#">Work Experience</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Work Experience</a>
                         </li>
-                        <li>
-                            <a href="#">Projects</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Projects</a>
                         </li>
-                        <li>
-                            <a href="#">Achievments</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Achievements</a>
                         </li>
-                        <li>
-                            <a href="#">Contact Me</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Contact Me</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </>
-
+        </nav>
     );
-
 }

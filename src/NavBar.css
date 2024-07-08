@@ -6,13 +6,7 @@
     src: url("../public/canvaFuture.otf");
 }
 
-#nav-bar {
-    display: flex;
-    flex-direction: row;
-    padding: 25px 60px;
-}
-
-#logo p{
+#logo p {
     color: white;
     font-family: "future";
     font-weight: 400;
@@ -27,92 +21,52 @@
 }
 
 @-webkit-keyframes blink {
-    20%,
-    24%,
-    55% {
-      color: #111;
-      text-shadow: none;
+    20%, 24%, 55% {
+        color: #111;
+        text-shadow: none;
     }
-  
-    0%,
-    19%,
-    21%,
-    23%,
-    25%,
-    54%,
-    56%,
-    100% {
-    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-      color: #fff6a9;
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
     }
 }
   
-  @keyframes blink {
-    20%,
-    24%,
-    55% {
-      color: #111;
-      text-shadow: none;
+@keyframes blink {
+    20%, 24%, 55% {
+        color: #111;
+        text-shadow: none;
     }
-  
-    0%,
-    19%,
-    21%,
-    23%,
-    25%,
-    54%,
-    56%,
-    100% {
-    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-      color: #fff6a9;
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
     }
 }
-  
 
 #side-links {
     margin-left: auto;
 }
 
-#side-links ul{
-    display: flex;
-    flex-direction: row;
+#side-links ul {
     list-style: none;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0;
     padding: 0;
-    flex-grow: 1;
 }
 
 #side-links li {
-  position: relative;
-  color: white;
-  font-size: 20px;
-  margin: 15px 20px;
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  overflow: hidden;
-}
-
-#side-links li {
-  position: relative;
-  color: white;
-  font-size: 20px;
-  margin: 15px 20px;
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  transition: transform 0.3s ease-in-out;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin: 15px 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    transition: transform 0.3s ease-in-out;
 }
 
 #side-links li:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-#side-links a{
+#side-links a {
     text-decoration: none;
     color: white;
 }
