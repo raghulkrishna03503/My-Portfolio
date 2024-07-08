@@ -1,0 +1,105 @@
+/* Home.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@font-face {
+    font-family: "future";
+    src: url("../public/canvaFuture.otf");
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#text-container {
+    padding: 100px 75px;
+}
+
+#text-container h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+}
+
+#text-container h3 {
+    color: white;
+    margin-top: 25px;
+}
+
+#model-container {
+    margin-left: auto;
+}
+
+#handle ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+#handle ul li {
+    margin-top: 25px;
+}
+
+#handle ul li:not(:first-child) {
+    margin-left: 30px;
+}
+
+#handle ul li a {
+    font-size: 40px;
+    color: white;
+}
+
+#handle ul li a:hover {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+}
+
+#buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+#buttons :not(:first-child) {
+    margin-left: 30px;
+}
+
+#buttons button {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white; /* Add border for button */
+    padding: 15px 30px; /* Padding inside button */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+#buttons button:hover {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000; /* Text shadow on hover */
+}
+
+#wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) }  
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( 0.0deg) } 
+    100% { transform: rotate( 0.0deg) }
+}
