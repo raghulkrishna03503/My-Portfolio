@@ -19,16 +19,16 @@ export default function NavBar() {
                             <a className="nav-link" href="#skills">Skills</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Work Experience</a>
+                            <a className="nav-link" href="#experience">Work Experience</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Projects</a>
+                            <a className="nav-link" href="#projects">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Achievements</a>
+                            <a className="nav-link" href="#achievements">Achievements</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact Me</a>
+                            <a className="nav-link" href="#contact">Contact Me</a>
                         </li>
                     </ul>
                 </div>
