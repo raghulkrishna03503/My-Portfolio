@@ -1,12 +1,8 @@
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei';
-import './Home.css'; // Assuming your CSS file is named Home.css and located in the same directory
-
-function Model() {
-    const { scene } = useGLTF('/model.glb');
-    return <primitive object={scene} scale={5} />;
-}
+import { Environment, OrbitControls, useGLTF } from '@react-three/drei';
+import './Home.css';
+import { ModelViewer } from './ModelViewer';
 
 export default function Home() {
     return (
@@ -50,12 +46,9 @@ export default function Home() {
             </div>
             <div id="model-container">
                 <Canvas>
-                    <ambientLight />
-                    <pointLight position={[10, 10, 10]} />
-                    <Suspense fallback={null}>
-                        <Model />
-                    </Suspense>
-                    <OrbitControls />
+                    <Environment preset='studio'/>
+                    {/* <OrbitControls /> */}
+                    <ModelViewer/>
                 </Canvas>
             </div>
         </div>

@@ -16,7 +16,7 @@ export default function NavBar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto" id="side-links">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Skills</a>
+                            <a className="nav-link" href="#skills">Skills</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Work Experience</a>

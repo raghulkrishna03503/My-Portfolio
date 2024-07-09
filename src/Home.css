@@ -15,6 +15,11 @@
 
 #text-container {
     padding: 100px 75px;
+    width: 60%;
+}
+
+#model-container {
+    width: 40%;
 }
 
 #text-container h1 {
@@ -28,10 +33,6 @@
 #text-container h3 {
     color: white;
     margin-top: 25px;
-}
-
-#model-container {
-    margin-left: auto;
 }
 
 #handle ul {

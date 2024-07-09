@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@font-face {
+    font-family: "future";
+    src: url("../public/canvaFuture.otf");
+}
+
+#skills {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+
+#text-container-skills {
+    background-color: bisque;
+    margin-left: auto;
+}
+
+#text-container-skills h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+}
+
+#text-container-skills h3 {
+    color: white;
+    margin-top: 25px;
+}
