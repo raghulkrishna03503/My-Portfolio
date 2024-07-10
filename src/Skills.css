@@ -1,72 +1,81 @@
+/* Skills.css */
+
 .skills-section {
     color: white;
     padding: 50px 0;
-  }
-  
-  .skills-content {
+    opacity: 0; /* Initial opacity to hide */
+    transform: translateY(20px); /* Initial position to move */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+}
+
+.skills-section.animate {
+    opacity: 1; /* Show element */
+    transform: translateY(0); /* Move element back to its original position */
+}
+
+.skills-content {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
     padding: 0 20px;
-  }
-  
-  .skills-content h2 {
+}
+
+.skills-content h2 {
     margin-bottom: 20px;
     font-family: "Nunito", sans-serif;
     font-weight: bold;
     font-style: normal;
     font-size: 50px;
-  }
-  
-  .skills-description {
+}
+
+.skills-description {
     font-size: 24px;
     margin-bottom: 40px;
     font-weight: bold;
     font-style: normal;
-  }
-  
-  .skills-icons {
+}
+
+.skills-icons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 40px;
-  }
-  
-  .skill-icon {
+}
+
+.skill-icon {
     width: 100px;
     margin: 20px;
     text-align: center;
-  }
-  
-  .skill-icon i {
+}
+
+.skill-icon i {
     font-size: 50px;
     margin-bottom: 10px;
-    color: rgba(255, 246, 169, 0.5); 
-    text-shadow: 0 0 2px #ffa500, 0 0 5px #ffa500; 
-  }
-  
-  .skill-icon p {
+    color: rgba(255, 246, 169, 0.5);
+    text-shadow: 0 0 2px #ffa500, 0 0 5px #ffa500;
+}
+
+.skill-icon p {
     font-size: 16px;
     margin: 0;
     font-family: 'Nunito', sans-serif;
-  }
-  
-  .skills-list {
+}
+
+.skills-list {
     list-style: none;
     padding: 0;
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
-  }
-  
-  .skills-list li {
+}
+
+.skills-list li {
     margin: 10px 0;
     display: flex;
     align-items: center;
-  }
-  
-  .skills-list li::before {
+}
+
+.skills-list li::before {
     content: '⚡';
     color: #61dafb;
     margin-right: 10px;
-  }
-  
+}

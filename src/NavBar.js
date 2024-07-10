@@ -1,5 +1,12 @@
 import React from "react";
+import SmoothScroll from 'smooth-scroll';
 import './NavBar.css';
+
+// Initialize smooth scroll
+const scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 800,
+    speedAsDuration: true
+});
 
 export default function NavBar() {
     return (

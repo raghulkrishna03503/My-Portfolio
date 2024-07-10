@@ -59,9 +59,11 @@ export default function Home() {
             </div>
             <div id="model-container">
                 <Canvas>
-                    <Environment preset='studio'/>
-                    {/* <OrbitControls /> */}
-                    <ModelViewer/>
+                    <ambientLight intensity={0.5} />
+                    <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                    <Environment preset='studio' />
+                    <ModelViewer position={[0, -3.5, 0]} />
+                    {/* <SecondModelViewer position={[0, -3.5, -10]} /> Second model positioned behind */}
                 </Canvas>
             </div>
         </div>

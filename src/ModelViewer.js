@@ -4,6 +4,7 @@ import { useGLTF } from '@react-three/drei'
 
 export function ModelViewer(props) {
   const { nodes, materials } = useGLTF('models/model.glb')
+  nodes.Hips.rotation.y = 50;
   return (
     <group {...props} dispose={null} scale={[3.75, 3.75, 3.75]} position={[0, -3.5, 0]}>
       <primitive object={nodes.Hips} />
