@@ -1,31 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-@font-face {
-    font-family: "future";
-    src: url("../public/canvaFuture.otf");
-}
-
-#skills {
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: row;
-}
-
-#text-container-skills {
-    background-color: bisque;
-    margin-left: auto;
-}
-
-#text-container-skills h1 {
+.skills-section {
     color: white;
+    padding: 50px 0;
+  }
+  
+  .skills-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .skills-content h2 {
+    margin-bottom: 20px;
     font-family: "Nunito", sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 60px;
-}
-
-#text-container-skills h3 {
-    color: white;
-    margin-top: 25px;
-}
+    font-size: 50px;
+  }
+  
+  .skills-description {
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .skill-icon {
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .skill-icon i {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgba(255, 246, 169, 0.5); 
+    text-shadow: 0 0 2px #ffa500, 0 0 5px #ffa500; 
+  }
+  
+  .skill-icon p {
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .skills-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .skills-list li::before {
+    content: '⚡';
+    color: #61dafb;
+    margin-right: 10px;
+  }
+  

@@ -6,6 +6,12 @@
     src: url("../public/canvaFuture.otf");
 }
 
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+
 #logo p {
     color: white;
     font-family: "future";

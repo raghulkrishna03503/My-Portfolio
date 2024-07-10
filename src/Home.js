@@ -1,9 +1,14 @@
+import { useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Environment } from '@react-three/drei';
 import './Home.css';
 import { ModelViewer } from './ModelViewer';
 
 export default function Home() {
+    useEffect(() => {
+        document.title = "Raghul Yadhav's Portfolio";
+    }, []);
+
     const downloadResume = () => {
         const link = document.createElement('a');
         link.href = `${process.env.PUBLIC_URL}/files/RaghulYadhav_Resume.pdf`;
@@ -31,7 +36,7 @@ export default function Home() {
                             </a>
                         </li>
                         <li>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raghulkrishna03052003@gmail.com" target='_blank' rel="noopener noreferrer">
+                            <a href="mailto:raghulkrishna03052003@gmail.com" target='_blank' rel="noopener noreferrer">
                                 <i className="fa fa-envelope"></i>
                             </a>
                         </li>
