@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Skills.css';
+import Proficiency from './Proficiency';
+import Education from './Education';
 
 const skills = [
     { name: 'Java', icon: 'java' },
@@ -38,7 +40,7 @@ export default function Skills() {
             <div className="skills-content">
                 <h2><b><i>What I do</i></b></h2>
                 <p className="skills-description">Tech enthusiast proficient in Java, Python, JS, crafting user-friendly apps, including AR/VR, exploring AI & cloud, dedicated to collaboration and learning.</p>
-                <div className="skills-icons">
+                <div className="skills-card">
                     {skills.map((skill, index) => (
                         <div key={index} className="skill-icon">
                             {skill.icon === "vr-cardboard" ? (
@@ -67,6 +69,8 @@ export default function Skills() {
                     <li>I've immersed myself in programming, especially in VR, which fascinates me for its potential to revolutionize user experiences.</li>
                 </ul>
             </div>
+            <Proficiency/>
+            <Education/>
         </div>
     );
 }

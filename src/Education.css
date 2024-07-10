@@ -1,0 +1,28 @@
+/* Education.css */
+.education {
+    color: white;
+    padding: 20px;
+}
+
+.school {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.school img {
+    width: 50px; /* Adjust as needed */
+    margin-right: 20px;
+}
+
+.school div {
+    max-width: 600px; /* Adjust as needed */
+}
+
+.school h3 {
+    margin: 0;
+}
+
+.school p {
+    margin: 5px 0;
+}

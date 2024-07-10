@@ -1,0 +1,57 @@
+/* Proficiency.css */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@font-face {
+    font-family: "future";
+    src: url("../public/canvaFuture.otf");
+}
+
+.proficiency {
+    color: white;
+    padding: 100px;
+}
+
+.proficiency h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.progress {
+    width: 50%;
+    background-color: #444; /* Dark background to highlight the glow */
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.frontend, .backend, .programming {
+    height: 20px;
+    background-color: #ffa500; /* Background color for skill bar */
+    color: #fff6a9; /* Text color if there's any text inside */
+    box-shadow: 0 0 10px #ffa500, 0 0 20px #ffa500, 0 0 30px #ffa500, 0 0 40px #ffa500;
+}
+
+.frontend {
+    width: 65%; /* Adjust as needed */
+}
+
+.backend {
+    width: 90%; /* Adjust as needed */
+}
+
+.programming {
+    width: 95%; /* Adjust as needed */
+}
