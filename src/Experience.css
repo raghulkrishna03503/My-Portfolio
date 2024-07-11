@@ -1,0 +1,24 @@
+#experience {
+    display: flex;
+    justify-content: space-around;
+    animation: fadeIn 2s;
+  }
+  
+  .experience-card {
+    background: #2b2b2b;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .facebook { background: #3b5998; }
+  .quora { background: #a82400; }
+  .airbnb { background: #FF5A5F; }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  

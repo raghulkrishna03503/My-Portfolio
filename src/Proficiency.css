@@ -1,4 +1,3 @@
-/* Proficiency.css */
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
@@ -7,9 +6,18 @@
     src: url("../public/canvaFuture.otf");
 }
 
+#container-proficiency {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: stretch; /* Ensure both sections stretch to match height */
+}
+
 .proficiency {
     color: white;
-    padding: 100px;
+    width: 50%;
 }
 
 .proficiency h2 {
@@ -17,6 +25,14 @@
     font-weight: bold;
     font-style: normal;
     font-size: 50px;
+}
+
+.proficiency-card {
+    background-color: #2b2b2b; /* Dark background similar to skill bars */
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px #ffa500, 0 0 5px #ffa500;
 }
 
 .skill {
@@ -30,7 +46,6 @@
 }
 
 .progress {
-    width: 50%;
     background-color: #444; /* Dark background to highlight the glow */
     border-radius: 20px;
     overflow: hidden;
@@ -54,4 +69,20 @@
 
 .programming {
     width: 95%; /* Adjust as needed */
+}
+
+.model-viewer-proficiency {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in element's width and height */
+}
+
+.model-viewer-proficiency img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%; /* Ensure image takes full height of container */
+    object-fit: cover; /* Ensure image covers the entire area without distortion */
 }

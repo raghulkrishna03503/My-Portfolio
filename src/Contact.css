@@ -1,0 +1,51 @@
+.contact-container {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .contact-container p {
+    margin: 5px 0;
+  }
+  
+  .contact-container .quote {
+    font-style: italic;
+    margin: 20px 0;
+  }
+  
+  .location-status {
+    margin: 20px 0;
+  }
+  
+  .social-icons {
+    margin: 20px 0;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5em;
+  }
+  
+  .footer {
+    margin-top: 20px;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  

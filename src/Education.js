@@ -1,35 +1,21 @@
-// Education.js
 import React from 'react';
-import './Education.css'; // Make sure this path is correct based on your project structure
+import './Education.css';
 
 const Education = () => {
     return (
         <div className="education">
-            <h2>Education</h2>
-            <div className="school">
-                <img src="path_to_harvard_logo.png" alt="Harvard Logo" />
-                <div>
-                    <h3>Harvard University</h3>
-                    <p>Master of Science in Computer Science</p>
-                    <p>September 2017 - April 2019</p>
-                    <p>Participated in the research of XXX and published 3 papers.</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                    </ul>
-                </div>
+            <h2><b><i>Education</i></b></h2>
+            <div className="education-card">
+                <h3>Massachusetts Institute of Technology (MIT)</h3>
+                <p>Bachelor of Science in Computer Science and Engineering</p>
+                <p><strong>Year:</strong> 2016 - 2020</p>
+                <p><strong>Grade:</strong> 3.8 GPA</p>
             </div>
-            <div className="school">
-                <img src="path_to_stanford_logo.png" alt="Stanford Logo" />
-                <div>
-                    <h3>Stanford University</h3>
-                    <p>Bachelor of Science in Computer Science</p>
-                    <p>September 2013 - April 2017</p>
-                    <p>Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                    </ul>
-                </div>
+            <div className="education-card">
+                <h3>Stanford University</h3>
+                <p>Master of Science in Artificial Intelligence</p>
+                <p><strong>Year:</strong> 2020 - 2022</p>
+                <p><strong>Grade:</strong> 4.0 GPA</p>
             </div>
         </div>
     );
