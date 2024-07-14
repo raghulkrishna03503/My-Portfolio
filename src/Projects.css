@@ -1,22 +1,74 @@
-#projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    animation: fadeIn 2s;
+#container-projects {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.projects {
+  color: white;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.projects-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #2b2b2b;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #ffa500, 0 0 20px #ffa500;
+  width: 100%;
+  max-width: 350px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #ffa500, 0 0 30px #ffa500;
+}
+
+.project-card h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  #container-projects {
+      padding: 20px;
   }
-  
+
+  .projects h2 {
+      font-size: 40px;
+  }
+
+  .projects-cards {
+      flex-direction: column;
+      align-items: center;
+  }
+
   .project-card {
-    background: #2b2b2b;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 30%;
-    margin: 10px 0;
-    text-align: center;
+      width: 100%;
+      max-width: none;
+      margin-bottom: 20px;
   }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
+}

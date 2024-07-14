@@ -26,13 +26,13 @@ export default function NavBar() {
                             <a className="nav-link" href="#skills">Skills</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#experience">Work Experience</a>
+                            <a className="nav-link" href="#ex">Work Experience</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#projects">Projects</a>
+                            <a className="nav-link" href="#pro">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#achievements">Achievements</a>
+                            <a className="nav-link" href="#achie">Achievements</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#contact">Contact Me</a>
