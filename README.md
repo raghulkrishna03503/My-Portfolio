@@ -1,3 +1,5 @@
+This is a portfolio website showcasing my projects and interests, hosted on Vercel for seamless deployment and performance.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
