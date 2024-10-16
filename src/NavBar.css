@@ -11,7 +11,6 @@
     align-items: center;
 }
 
-
 #logo p {
     color: white;
     font-family: "future";
@@ -19,7 +18,7 @@
     font-style: normal;
     font-size: 50px;
     margin: 0;
-    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    text-shadow: 0 0 5px #ff1f8c, 0 0 15px #ff1f8c, 0 0 20px #ff1f8c, 0 0 40px #ff1f8c, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000; /* Changed to neon pink */
     color: #fff6a9;
     text-align: center;
     animation: blink 12s infinite;
@@ -32,7 +31,7 @@
         text-shadow: none;
     }
     0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        text-shadow: 0 0 5px #ff1f8c, 0 0 15px #ff1f8c, 0 0 20px #ff1f8c, 0 0 40px #ff1f8c, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000; /* Changed to neon pink */
         color: #fff6a9;
     }
 }
@@ -43,7 +42,7 @@
         text-shadow: none;
     }
     0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        text-shadow: 0 0 5px #ff1f8c, 0 0 15px #ff1f8c, 0 0 20px #ff1f8c, 0 0 40px #ff1f8c, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000; /* Changed to neon pink */
         color: #fff6a9;
     }
 }

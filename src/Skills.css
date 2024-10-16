@@ -4,6 +4,7 @@
     opacity: 0; /* Initial opacity to hide */
     transform: translateY(20px); /* Initial position to move */
     transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+    min-height: 100vh;
 }
 
 .skills-section.animate {

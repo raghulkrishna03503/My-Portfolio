@@ -5,14 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #222;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 7px,
-    rgba(0, 0, 0, 0.8) 9px,
-    rgba(0, 0, 0, 0.8) 13px,
-    transparent 13px
-  );
+  padding: 50px 8vw;
+  padding-top: 20px;
+  backdrop-filter: blur(5px);
+  background: url('https://imgcdn.stablediffusionweb.com/2024/9/18/31b0c4ed-27c9-4697-bc71-e468fe49dce2.jpg') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 code {
