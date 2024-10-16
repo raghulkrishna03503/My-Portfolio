@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { Environment } from '@react-three/drei';
+import { Environment, OrbitControls } from '@react-three/drei';
 import './Home.css';
 import { ModelViewer } from './ModelViewer';
 
@@ -50,20 +50,25 @@ export default function Home() {
                                 <i className="fab fa-instagram"></i>
                             </a>
                         </li>
+                        <li>
+                            <a onClick={downloadResume} target='_blank' rel="noopener noreferrer">
+                                <p><b><i>Download my Resume</i></b></p>
+                            </a>
+                        {/* <div id='buttons'>
+                            <button onClick={downloadResume}><b><i>Download my Resume</i></b></button>
+                        </div> */}
+                        </li>
+                        
                     </ul>
-                </div>
-                <div id='buttons'>
-                    <button><b><i><a href="#contact">Contact Me</a></i></b></button>
-                    <button onClick={downloadResume}><b><i>Download my Resume</i></b></button>
                 </div>
             </div>
             <div id="model-container">
                 <Canvas>
+                    <OrbitControls/>
                     <ambientLight intensity={0.5} />
                     <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
                     <Environment preset='studio' />
                     <ModelViewer position={[0, -3.5, 0]} />
-                    {/* <SecondModelViewer position={[0, -3.5, -10]} /> Second model positioned behind */}
                 </Canvas>
             </div>
         </div>

@@ -3,20 +3,21 @@
 
 @font-face {
     font-family: "future";
-    src: url("../public/canvaFuture.otf"); /* Ensure this path is correct */
+    src: url("../public/canvaFuture.otf");
 }
 
-#container-education {
+#education {
     display: flex;
-    justify-content: center; /* Center the contents */
+    justify-content: center;
     padding: 50px;
+    min-height: 100vh;
 }
 
 .education {
     color: white;
-    width: 100%; /* Full width */
-    max-width: 1200px; /* Max width for better centering */
-    text-align: center; /* Center text */
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
 }
 
 .education h2 {

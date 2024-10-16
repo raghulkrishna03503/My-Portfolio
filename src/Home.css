@@ -11,6 +11,7 @@
 #container {
     display: flex;
     flex-direction: row;
+    min-height: 100vh;
 }
 
 #text-container {
@@ -20,6 +21,7 @@
 
 #model-container {
     width: 40%;
+    height: 75vh;
 }
 
 #text-container h1 {
@@ -60,6 +62,18 @@
     color: #fff6a9;
 }
 
+a p{
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 #buttons {
     margin-top: 25px;
     display: flex;
@@ -76,7 +90,6 @@
     font-size: 20px;
     color: white;
     background-color: transparent;
-    border: 2px solid white; /* Add border for button */
     padding: 15px 30px; /* Padding inside button */
     cursor: pointer;
     transition: all 0.3s ease; /* Smooth transition for hover effects */

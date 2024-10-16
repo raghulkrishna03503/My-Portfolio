@@ -6,7 +6,7 @@ export function ModelViewer(props) {
   const { nodes, materials } = useGLTF('models/model.glb')
   nodes.Hips.rotation.y = 50;
   return (
-    <group {...props} dispose={null} scale={[3.5, 3.5, 3.5]} position={[0, -3, 0]}>
+    <group {...props} dispose={null} scale={[4, 4, 4]} position={[0, -7.5, 0]}>
       <primitive object={nodes.Hips} />
       <skinnedMesh
         name="EyeLeft"

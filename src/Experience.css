@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center; /* Center the contents */
     padding: 50px;
+    min-height: 100vh;
 }
 
 .experience {

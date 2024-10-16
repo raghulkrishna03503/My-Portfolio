@@ -25,6 +25,9 @@ export default function NavBar() {
                             <a className="nav-link" href="#skills">Skills</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link" href="#education">Education</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link" href="#ex">Work Experience</a>
                         </li>
                         <li className="nav-item">
@@ -32,9 +35,6 @@ export default function NavBar() {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#achie">Achievements</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contact Me</a>
                         </li>
                     </ul>
                 </div>

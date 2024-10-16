@@ -1,9 +1,10 @@
+
 import React from 'react';
 import './Education.css'; // Ensure the path is correct based on your project structure
 
 const Education = () => {
     return (
-        <div id='container-education'>
+        <div id='education'>
             <div className="education">
                 <h2><b><i>Education</i></b></h2>
                 <div className="education-cards">

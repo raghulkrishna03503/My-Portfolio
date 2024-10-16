@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Skills.css';
-import Proficiency from './Proficiency';
-import Education from './Education';
 
 const skills = [
     { name: 'Java', icon: 'java' },
@@ -64,13 +62,11 @@ export default function Skills() {
                     ))}
                 </div>
                 <ul className="skills-list">
-                    <li>I'm a Computer Science Engineering student passionate about Software Development, Virtual Reality and Augmented Reality.</li>
+                    <li>I'm a Computer Science Engineering student passionate about Full Stack Development, Virtual Reality and Augmented Reality.</li>
                     <li>My journey began with a curiosity about technology, growing into a commitment to creating innovative solutions.</li>
-                    <li>I've immersed myself in programming, especially in VR, which fascinates me for its potential to revolutionize user experiences.</li>
+                    <li>I've immersed myself in web dev and programming, especially in VR, which fascinates me for its potential to revolutionize user experiences.</li>
                 </ul>
             </div>
-            <Proficiency/>
-            <Education/>
         </div>
     );
 }
