@@ -34,18 +34,21 @@
 }
 
 .education-card {
-    background-color: #2b2b2b;
-    padding: 30px; /* More padding for a better look */
-    border-radius: 20px;
-    box-shadow: 0 0 10px #ffa500, 0 0 20px #ffa500;
-    width: 100%; /* Full width */
-    max-width: 500px; /* Limit card width */
+    background: rgba(255, 0, 89, 0.54);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(255, 0, 89, 0.27);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .education-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 20px #ffa500, 0 0 30px #ffa500;
+    box-shadow: 0 0 20px #ff1f8c, 0 0 30px #ff1f8c;
 }
 
 .institution {
