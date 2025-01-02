@@ -30,12 +30,6 @@ export default function NavBar() {
                         <li className="nav-item">
                             <a className="nav-link" href="#ex">Work Experience</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#pro">Projects</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#achie">Achievements</a>
-                        </li>
                     </ul>
                 </div>
             </div>
