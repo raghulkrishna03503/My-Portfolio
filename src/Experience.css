@@ -29,24 +29,19 @@
 }
 
 .experience-card {
-
-    /* background: rgba(255, 0, 89, 0.54); */
     border-radius: 16px;
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9px);
-    -webkit-backdrop-filter: blur(9px);
-    border: 1px solid rgba(255, 0, 89, 0.27);*/
     background-image: url("https://mms.businesswire.com/media/20240613395255/en/1230915/23/Fid_Logo_Color.jpg");
     background-size:contain;
     background-repeat: no-repeat;
     padding: 30px;
     width: 1000px;
+    border: 1px solid rgb(255, 165, 0, 0.27);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .experience-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 20px #ff1f8c, 0 0 30px #ff1f8c;
+    box-shadow: 0 0 20px #ffa500, 0 0 30px #ffa500;
 }
 
 .experience-card h3 {

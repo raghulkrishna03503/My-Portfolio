@@ -1,8 +1,5 @@
 import { useEffect } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { Environment, OrbitControls } from '@react-three/drei';
 import './Home.css';
-import { ModelViewer } from './ModelViewer';
 
 export default function Home() {
     useEffect(() => {
@@ -61,15 +58,6 @@ export default function Home() {
                         
                     </ul>
                 </div>
-            </div>
-            <div id="model-container">
-                <Canvas>
-                    <OrbitControls/>
-                    <ambientLight intensity={0.5} />
-                    <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-                    <Environment preset='studio' />
-                    <ModelViewer position={[0, -3.5, 0]} />
-                </Canvas>
             </div>
         </div>
     );

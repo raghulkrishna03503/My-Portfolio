@@ -34,12 +34,12 @@
 }
 
 .education-card {
-    background: rgba(255, 0, 89, 0.54);
+    background: rgba(41, 41, 41, 0.54);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
-    border: 1px solid rgba(255, 0, 89, 0.27);
+    border: 1px solid rgb(255, 165, 0, 0.27);
     padding: 30px;
     width: 100%;
     max-width: 500px;
@@ -48,7 +48,7 @@
 
 .education-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 20px #ff1f8c, 0 0 30px #ff1f8c;
+    box-shadow: 0 0 20px #ffa500, 0 0 30px #ffa500;
 }
 
 .institution {
